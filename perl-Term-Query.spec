@@ -3,7 +3,7 @@
 Summary:	Term::Query - table-driven query routine
 Name:		perl-%{real_name}
 Version:	2.0
-Release: %mkrel 2
+Release: %mkrel 3
 License:	GPL or Artistic
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{real_name}
@@ -26,6 +26,7 @@ of input.
 %{__perl} Makefile.PL INSTALLDIRS=vendor
 %make
 
+%check
 # make test don't work
 # make test
 
