@@ -11,6 +11,7 @@ Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Term/%{real_name}-%{versi
 BuildRequires:	perl-devel
 BuildRequires:	perl(Array::PrintCols)
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Term::Query is a Perl 5 module, which performs generalized queries on
