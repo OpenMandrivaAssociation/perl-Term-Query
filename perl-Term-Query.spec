@@ -43,3 +43,36 @@ rm -rf %{buildroot}
 %{perl_vendorlib}/Term/*
 %{_mandir}/*/*
 
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tvignaud@mandriva.com> 2.0-7mdv2010.0
++ Revision: 430572
+- rebuild
+
+* Wed Jul 23 2008 Thierry Vignaud <tvignaud@mandriva.com> 2.0-6mdv2009.0
++ Revision: 241962
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Wed May 09 2007 Oden Eriksson <oeriksson@mandriva.com> 2.0-4mdv2008.0
++ Revision: 25457
+- rebuild
+
+* Mon May 07 2007 Olivier Thauvin <nanardon@mandriva.org> 2.0-3mdv2008.0
++ Revision: 23831
+- rebuild
+
+
+* Fri Apr 28 2006 Nicolas Lécureuil <neoclust@mandriva.org> 2.0-2mdk
+- Fix SPEC according to Perl Policy
+	- BuildRequires
+	- Source URL
+- use mkrel
+
+* Thu Jul 14 2005 Oden Eriksson <oeriksson@mandriva.com> 2.0-1mdk
+- initial Mandriva package
+
