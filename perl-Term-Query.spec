@@ -3,7 +3,7 @@
 Summary:	Term::Query - table-driven query routine
 Name:		perl-%{real_name}
 Version:	2.0
-Release: 8
+Release: 9
 License:	GPL or Artistic
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{real_name}
