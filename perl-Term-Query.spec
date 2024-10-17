@@ -6,7 +6,7 @@ Version:	2.0
 Release: 9
 License:	GPL or Artistic
 Group:		Development/Perl
-URL:		http://search.cpan.org/dist/%{real_name}
+URL:		https://search.cpan.org/dist/%{real_name}
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Term/%{real_name}-%{version}.tar.bz2
 BuildRequires:	perl-devel
 BuildRequires:	perl(Array::PrintCols)
