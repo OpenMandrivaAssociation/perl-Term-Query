@@ -8,6 +8,7 @@ License:	GPL or Artistic
 Group:		Development/Perl
 URL:		https://search.cpan.org/dist/%{real_name}
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Term/%{real_name}-%{version}.tar.bz2
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl(Array::PrintCols)
 BuildArch:	noarch
